@@ -1,0 +1,75 @@
+#container {
+    padding-left: 300px;
+}
+
+#content {
+    padding: 20px;
+}
+
+nav {
+    box-shadow: none !important;
+}
+
+nav span {
+    display: block;
+    line-height: normal;
+}
+
+nav .nome {
+    font-size: 0.7em;
+    color: #39AAAC;
+}
+
+nav .marca {
+    font-size: 0.4em;
+    color: #B9B9B9;
+}
+
+.bg-logo-menu {
+    height: 285px;
+    width: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 60% 55%, #CB9E00, #E0BC37, #FBE066);
+}
+
+.bg-logo-menu-img {
+    top: 99px;
+    float: right;
+    position: relative;
+    background: #FFF;
+    height: 190px;
+    width: 100%;
+    border-top-left-radius: 95%;
+    border-top-right-radius: 46%;
+}
+
+.bg-menu-img {
+    top: 60px;
+    left: 80px;
+    width: 190px;
+    position: relative;
+}
+
+.icons {
+    color: #DDB200 !important;
+}
+
+.side-nav li:hover a:hover, .side-nav li.active{
+    background: #fff;
+    background-image: linear-gradient(to right, #37B1B8 2%, #fff 2%) !important;
+}
+
+.side-nav li:hover i, .side-nav li:active i, .side-nav li.active i {
+    color: #37B1B8 !important;
+    
+}
+
+.input-field-customize {
+    border: 1px #F5F5F5 solid !important;
+    background: #FBFBFB !important;
+    border-radius: 10px !important;
+}
+@media only screen and (max-width: 992px) {
+    #container {
+        padding-left: 0px;
+    }
+}
