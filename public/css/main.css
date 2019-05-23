@@ -1,0 +1,210 @@
+#container {
+    padding-left: 300px;
+}
+
+#content {
+    padding: 20px;
+}
+
+nav {
+    box-shadow: none !important;
+}
+
+nav span {
+    display: block;
+    line-height: normal;
+}
+
+nav .nome {
+    font-size: 0.59em;
+    color: #39AAAC;
+}
+
+nav .marca {
+    font-size: 0.4em;
+    color: #B9B9B9;
+}
+
+.bg-logo-menu {
+    height: 285px;
+    width: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 60% 55%, #CB9E00, #E0BC37, #FBE066);
+}
+
+.bg-logo-menu-img {
+    top: 99px;
+    float: right;
+    position: relative;
+    background: #FFF;
+    height: 190px;
+    width: 100%;
+    border-top-left-radius: 95%;
+    border-top-right-radius: 46%;
+}
+
+.bg-menu-img {
+    top: 60px;
+    left: 80px;
+    width: 190px;
+    position: relative;
+}
+
+.photo {
+    background: #d1cfcf;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-title {
+    color: #DDB200;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #DDB200;
+}
+
+.collapsible-body p label {
+    display: block;
+}
+
+.collapsible-body span {
+    display: block;
+    font-size: 0.7rem;
+    line-height: 50%;
+}
+
+.filled-in {
+    margin-top: 10px;
+}
+
+.collapsible {
+    border: none !important;
+}
+
+.collapsible-header {
+    width: 50%;
+}
+
+.icons {
+    color: #DDB200 !important;
+}
+
+.side-nav li:hover a:hover, .side-nav li.active {
+    background: #fff;
+    background-image: linear-gradient(to right, #37B1B8 2%, #fff 2%) !important;
+}
+
+.side-nav li:hover i, .side-nav li:active i, .side-nav li.active i {
+    color: #37B1B8 !important;
+}
+
+.input-field-customize {
+    border: 1px #F5F5F5 solid !important;
+    background: #FBFBFB !important;
+    border-radius: 10px !important;
+}
+
+.search i {
+    left: 90%;
+    font-size: 15px;
+    color: #DADADA;
+    top: 5px;
+}
+
+.search input {
+    height: 2rem !important;
+    padding: 5px !important;
+    outline: none !important;
+    border: 1px #F5F5F5 solid !important;
+    background: #FBFBFB !important;
+    border-radius: 10px !important;
+}
+
+.curso-data {
+    background: #F7F7F7;
+    border-radius: 100%;
+    height: 55px;
+    text-align: center;
+    padding-top: 10px;
+    color: #05A3A5;
+    font-size: 1.3rem;
+}
+
+.curso-data span {
+    display: block;
+}
+
+.curso-data label {
+    color: #05A3A5;
+}
+
+.curso-descricao, .curso-colaboradores {
+    height: 55px;
+    padding-top: 10px;
+}
+
+.curso-descricao span {
+    font-weight: bold;
+    display: block;
+}
+
+.curso-colaboradores span {
+    color: #E4C055;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+.curso-btn button {
+    background: #F5F5F5;
+    color: #6DC4C9;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7rem 1.5rem;
+}
+
+.colapse-custom {
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+.colapse-custom-header, .custom-button {
+    background-color: #F5F5F5 !important;
+    color: #DDB200 !important;
+    border-radius: 10px !important;
+    height: 3.2rem !important;
+    box-shadow: none !important;
+}
+
+.colab-cargo {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.colab-btn {
+    display: inline;
+}
+
+.colab-btn .btn-open {
+    /* width: 6rem; */
+    background: #F5F5F5;
+    color: #6DC4C9;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7rem 1rem;
+}
+
+.colab-btn .btn-remove {
+    /* width: 6rem; */
+    background: #F5F5F5;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7rem 1rem;
+    color: #DDB200 !important;
+}
+@media only screen and (max-width: 992px) {
+    #container {
+        padding-left: 0px;
+    }
+}
