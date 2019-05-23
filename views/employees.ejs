@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../public/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.button-collapse').sideNav({
+                menuWidth: 300,
+                edge: 'left',
+                closeOnClick: false,
+                draggable: true
+            }
+            );
+
+            $(document).ready(function () {
+                $('.collapsible').collapsible();
+            });
+        });
+
+    </script>
+</head>
+
+<body class="grey lighten-3">
+    <div id="container">
+        <% include partial/menu %>
+
+        <div id="content">
+            <% include partial/header %>
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="card white">
+                        <div class="card-content amber-text">
+                            <span class="card-title">14 Práticas de Negociação</span>
+                            <label class="card-subtitle">03 de Agosto de 2018</label>
+                        </div>
+                        <div class="card-content">
+                            <div class="row">
+                                <ul class="collapsible col s6 colapse-custom">
+                                    <li>
+                                        <div class="collapsible-header colapse-custom-header"><i
+                                                class="material-icons">playlist_add_check</i>CHECKLIST
+                                        </div>
+                                        <div class="collapsible-body">
+                                            <div>
+                                                <input type="checkbox" class="filled-in" id="filled-in-box-1"
+                                                    checked="checked" />
+                                                <label for="filled-in-box">Instrução 1
+                                                    <span>Algumas observações sobre esta instrução</span>
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="filled-in" id="filled-in-box-2" />
+                                                <label for="filled-in-box-2">Instrução 1
+                                                    <span>Algumas observações sobre esta instrução</span>
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="filled-in" id="filled-in-box-3" />
+                                                <label for="filled-in-box-3">Instrução 1
+                                                    <span>Algumas observações sobre esta instrução</span>
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" class="filled-in" id="filled-in-box-4" />
+                                                <label for="filled-in-box-4">Instrução 1
+                                                    <span>Algumas observações sobre esta instrução</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
+                                <button class="btn custom-button"><i class="material-icons">cloud_download</i> BAIXAR
+                                    CONTEÚDO</button>
+                            </div>
+                            <div class="row">
+                                <% include partial/employees_partial%>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

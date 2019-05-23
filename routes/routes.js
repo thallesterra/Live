@@ -3,15 +3,15 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('home');
+  res.render('courses');
 });
 
-// router.get('/about', function(req, res, next) {
-//   res.render('about', {page:'About Us', menuId:'about'});
-// });
+router.get('/courses', function(req, res, next) {
+  res.render('courses');
+});
 
-// router.get('/contact', function(req, res, next) {
-//   res.render('contact', {page:'Contact Us', menuId:'contact'});
-// });
+router.get('/employees', function(req, res, next) {
+  res.render('employees');
+});
 
 module.exports = router;

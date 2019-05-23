@@ -16,7 +16,7 @@ nav span {
 }
 
 nav .nome {
-    font-size: 0.7em;
+    font-size: 0.59em;
     color: #39AAAC;
 }
 
@@ -47,6 +47,44 @@ nav .marca {
     left: 80px;
     width: 190px;
     position: relative;
+}
+
+.photo {
+    background: #d1cfcf;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-title {
+    color: #DDB200;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+    color: #DDB200;
+}
+
+.collapsible-body p label {
+    display: block;
+}
+
+.collapsible-body span {
+    display: block;
+    font-size: 0.7rem;
+    line-height: 50%;
+}
+
+.filled-in {
+    margin-top: 10px;
+}
+
+.collapsible {
+    border: none !important;
+}
+
+.collapsible-header {
+    width: 50%;
 }
 
 .icons {
@@ -124,6 +162,46 @@ nav .marca {
     border-radius: 5px;
     border: none;
     padding: 0.7rem 1.5rem;
+}
+
+.colapse-custom {
+    box-shadow: none !important;
+    margin: 0 !important;
+}
+
+.colapse-custom-header, .custom-button {
+    background-color: #F5F5F5 !important;
+    color: #DDB200 !important;
+    border-radius: 10px !important;
+    height: 3.2rem !important;
+    box-shadow: none !important;
+}
+
+.colab-cargo {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.colab-btn {
+    display: inline;
+}
+
+.colab-btn .btn-open {
+    /* width: 6rem; */
+    background: #F5F5F5;
+    color: #6DC4C9;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7rem 1rem;
+}
+
+.colab-btn .btn-remove {
+    /* width: 6rem; */
+    background: #F5F5F5;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7rem 1rem;
+    color: #DDB200 !important;
 }
 @media only screen and (max-width: 992px) {
     #container {
